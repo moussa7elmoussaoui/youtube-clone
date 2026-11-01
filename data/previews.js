@@ -134,8 +134,8 @@ const previews = [
 ];
 
 previews.forEach((preview, i) => {
-  preview.thumbnail = `/thumbnails/thumbnail-${i}.webp`;
-  preview.channel.icon = `/icons/channels-${i}.jpeg`;
+  preview.thumbnail = `assets/images/thumbnails/thumbnail-${i + 1}.webp`;
+  preview.channel.icon = `assets/images/channels/channel-${i + 1}.jpeg`;
 });
 
 export default previews;

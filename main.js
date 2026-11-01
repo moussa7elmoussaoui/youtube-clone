@@ -16,14 +16,14 @@ previews.forEach((preview, i) => {
       <div class="video-preview">
         <div class="thumbnail">
           <a href="${preview.link}">
-            <img src="assets/images/thumbnails/thumbnail-${i + 1}.webp" draggable="false">
+            <img src="${preview.thumbnail}" draggable="false">
           </a>
           <span>${formatDuration(preview.duration)}</span>
         </div>
         <div class="video-info">
           <div class="channel-pic">
             <a href="${preview.channel.link}">
-              <img src="assets/images/channels/channel-${i + 1}.jpeg" draggable="false">
+              <img src="${preview.channel.icon}" draggable="false">
             </a>
           </div>
           <div class="video-details">
